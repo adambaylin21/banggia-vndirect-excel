@@ -4,9 +4,8 @@ This Python script converts HTML table data from the file 'Untitled-1.html' to a
 
 ## Files Created
 
-1. **html_to_excel.py** - Basic version for HTML to Excel conversion
-2. **html_to_excel_improved.py** - Enhanced version with better data cleaning and column naming
-3. **banggia_phaisinh.xlsx** - Output Excel file with converted data
+1. **html_to_excel.py** - Enhanced version with better data cleaning and column naming
+2. **banggia_phaisinh.xlsx** - Output Excel file with converted data
 
 ## Usage
 
@@ -18,12 +17,12 @@ pip install pandas beautifulsoup4 openpyxl
 
 ### Run the Script
 ```bash
-python html_to_excel_improved.py
+python html_to_excel.py
 ```
 
 ## Output Details
 
-- **Input file**: `Untitled-1.html`
+- **Input file**: `filehtml.html`
 - **Output file**: `banggia_phaisinh.xlsx`
 - **Data rows**: 246 rows exported
 - **Columns**: 28 columns including:
